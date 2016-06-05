@@ -1,0 +1,26 @@
+@logo: '/images/nav_logo.png';
+@color: #59DEB7;
+
+.logo{
+	width: 125px;
+	background-image: url(@logo);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 50px;
+    display: inline-block;
+    margin-left: 24px;
+}
+
+nav{
+	margin-bottom: 0!important;
+}
+.navbar-menu{
+	margin-right: 24px;
+	a{
+		&:hover,
+		&.active{
+			border-bottom: 2px solid @color;
+			color: @color!important;
+		}
+	}
+}

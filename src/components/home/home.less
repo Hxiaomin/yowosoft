@@ -1,0 +1,167 @@
+@top_normal: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAAA3CAMAAACfBSJ0AAAAPFBMVEW2zMUAAAD8/fzs8vC2zMW2zMW2zMW2zMW2zMW2zMW2zMW2zMW2zMW2zMW2zMW2zMXV4t62zMXa5eLa5eFO4uNxAAAAFHRSTlNmAPC3UyA2CQ9gFV1IL0pGiEWRkfi7nRoAAAEfSURBVEjHrdZJsoMwDEXRlyD3BtLsf68/vyuHwk9gVe7QxRkBlnDpFJy/SwFQpHoXeo9gj2bBNpnDocsreq1ZdXEBq0buPLQ8cVGgJ7HnXMJRye2dw5lcc4zpEJRx2FxMp12Kb05wPmnOYyT/7yLGin9uGXTLr8sYLf+4ddit3y5gvPBys8HNLydgTRN/hwicXa8UBjiFcejgOVOgx52zaaKwQjgDKBQUhXFYoDEOk8445EyFCYUwHRYIYfqR4E6e0Q8r/BHrHvvt9/ncswafaLnt/3BrbA9vaAVcZAMfID3emVj/d+v9YrvPqvX+NN7X1vlgnEfG+Wedt8b5bt8n7PuLfV+y72f2fbCVF6qWrO+7tatq/tR+zff5hMT3+S8A5wkEJT7nPwAAAABJRU5ErkJggg==';
+@top_hover: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAAA3CAMAAACfBSJ0AAAAQlBMVEVZ3rcAAAD4/vzT9uxZ3rdZ3rdZ3rdZ3rdZ3rdZ3rdZ3rdZ3rdZ3rfV9+1Z3rdZ3rdZ3rdZ3rdZ3rer7tuf7NX4/vxITeqQAAAAFnRSTlNmAPC2EgoiRmBUUkk2uF0vHAM4kYjvhiwi9AAAASpJREFUSMel1tuWgyAMheGtcoaiaOf9X3U6h5a6JFHS/5LFd6ckGBppk6zPALK3q9GtKziiOWBfmPWpUxatrGKdiqCKinQlgSuVtlMefF613OJwlluOzuBKpjqCcbC6BVdb3p12l53T1ZWA64Xycgk9padT6Ev9u9jp4p9T6E39Otvt7I/T6E8/3Cxw88MFUN0mEIUBmmbjSEINwzAaGiSaMXCFpdk0kTDC0wwgoUfGoXqfhBkMY6BjGAcZxkKHTDAeZniC8UcelrjDH0akM9Y8Xvff53ZkFW6omf3/cB/HG/Xdfd1R0xjCDm4g2t5ZkP7v0vdF+J5J30/hey2dD8J5JJ1/snmrhPNdvk/I9xf5viTfz2plZdlahPunfN/9fL9m9nkHl30k9vlvVqUKd37Z/Y0AAAAASUVORK5CYII=';
+@top_down: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAAA3CAMAAACfBSJ0AAAAOVBMVEVI06oAAAD3/fvP9OlI06pI06pI06pI06pI06pI06pI06pI06pI06pI06pI06pI06pI06qj6dSV5s4Nlv1IAAAAE3RSTlNmAPC3U0ciD2A2FQpdLxw3CJGIvTPcoQAAASBJREFUSMel1kuSgzAMRdGXIPmH+WX/i+10d1LGhSWwuEMXZ5TYEh6NVheZMoBMvLi19cnRjROhjqbx1CVGK06q8wwp9rKL0IqC8wQ98i03B5wV5qNzuJIrTmAaLG7G1ea98+GyC37nCNej4iJ6il/n0Zf/OO50/O8Sekt/jrsd/7oR/Y1vNxnc9HYEqWGQf0OMMns+RbjCKUyGDlFmClzAMhsGETJIZoAICVlhMsxQmAKDwjSoMBUGZIHpMIMEph8RWPhGP2TEM9Y8Xur/53ZkBW4oufo+vAo7wld1Hx5UwQ1C256R9b5b3xfje2Z9P43vtXU+GOeRdf7Z5619vtv3iS7ozPvS/f2stKhskffPpOyf6ca+e3+/Vvb5gCDv8z9mfwklM5eolAAAAABJRU5ErkJggg==';
+@font-face {
+  font-family: FZZX;
+  src: url('/fonts/FZZX.TTF') format('truetype')
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.mt57 {
+  margin-top: 57px !important;
+}
+.opacity0{
+  opacity: 0;
+}
+.dn{
+  display: none;
+}
+// *{
+//   -webkit-box-sizing:content-box;
+//   -moz-box-sizing:content-box;
+//   box-sizing:content-box;
+// }
+
+.btn-green {
+  border: 1px solid #1EDAA3;
+  background: #59DEB7;
+  color: #fff;
+  &:hover {
+    background: #1EDAA3;
+    color: #fff;
+  }
+}
+
+.btn-green[disable] {
+  background: #9AD0C0;
+  color: #ccc;
+}
+
+#app {
+  width: 100%;
+  min-width: 800px;
+  max-width: 1920px;
+  margin: 0 auto
+}
+
+nav {
+  text-align: center;
+}
+
+.navbar {
+  width: 100%;
+  position: fixed !important;
+  top: 0;
+  z-index: 1;
+  min-width: 800px;
+  max-width: 1920px;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    border-radius: 0;
+  }
+
+  .container-fluid {
+    .navbar-header {
+      float: left;
+      margin-right: 0;
+      margin-left: 0;
+    }
+  }
+
+  .navbar-nav {
+    float: left;
+    margin: 0;
+    li {
+      float: left;
+      a {
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+    }
+    .open {
+      .dropdown-menu {
+        right: 0;
+        left: auto;
+        position: absolute;
+        top: 100%;
+        z-index: 1000;
+        float: left;
+        min-width: 160px;
+        padding: 5px 0;
+        margin: 2px 0 0;
+        font-size: 14px;
+        text-align: left;
+        list-style: none;
+        background-color: #fff;
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+      }
+    }
+  }
+
+  .navbar-left {
+    float: left !important
+  }
+
+  .navbar-right {
+    float: right !important;
+    margin-right: -15px;
+  }
+
+  .navbar-right ~ .navbar-right {
+    margin-right: 0
+  }
+}
+
+.oper-box {
+  text-align: center;
+}
+
+.oper {
+  display: inline-block;
+  margin-right: 8px;
+  font-size: 12px;
+}
+
+#to_top {
+  display: none;
+  right: 35px;
+  bottom: 70px;
+  width: 55px;
+  height: 55px;
+  position: fixed;
+  background: url(@top_normal) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  &:hover {
+    background: url(@top_hover) no-repeat;
+    cursor: pointer;
+  }
+  &:active {
+    background: url(@top_down) no-repeat;
+  }
+}
+
+#to_top.show {
+  display: block;
+}

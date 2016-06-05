@@ -1,0 +1,69 @@
+
+.userOperNav-container {
+  display: inline-block;
+  padding-top: 15px;
+  .userInfo {
+    height: 200px;
+    text-align: center;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    width: 200px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    // float: left;
+
+    .triangle {
+      width: 0;
+      height: 0;
+      border-width: 20px 20px 0 0;
+      border-style: solid;
+      border-color: #626262 transparent transparent transparent;
+    }
+    .avatarImg {
+      margin: 8px auto;
+      width: 120px;
+      height: 120px;
+      background: #59DEB7;
+      border: 1px solid #f8f8f8;
+      border-radius: 50%;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+      overflow: hidden;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+  .userMenu {
+    list-style: none;
+    margin-top: 20px;
+    border: 1px solid #ebebeb;
+    width: 200px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+
+  }
+  .userMenu > li {
+    height: 50px;
+    line-height: 50px;
+    color: #666666;
+  }
+  .userMenu > li > a {
+    text-decoration:none;
+  }
+  .userMenu > li > a:not(.active){
+  color:#666666;
+  }
+  .userMenu > li > a:before {
+    vertical-align: text-bottom;
+    padding-right:10px;
+  }
+  .userMenu > li > a:hover{
+    color:#59DEB7;
+    text-decoration:none;
+  }
+
+
+}
+.active{
+  color:#59DEB7;
+  }
